@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/End Of Game.unity
     guid: c65f04d88e8847d4dbf6e44296752a8d
+  - enabled: 1
+    path: Assets/Whoopsie.unity
+    guid: 1fec2fd489e934cd191750af99f08067
   m_configObjects: {}
