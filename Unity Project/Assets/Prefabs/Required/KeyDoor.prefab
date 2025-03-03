@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 5704544318635521498}
   - component: {fileID: 3260126500187019852}
   m_Layer: 31
-  m_Name: HubDoor
+  m_Name: KeyDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -279,7 +279,7 @@ TextureImporter:
       213: 21300182
     second: Tileset_Alien_WallRightCornerFloor
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -296,11 +296,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -319,7 +320,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -339,19 +340,22 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 8192
@@ -362,8 +366,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 8192
@@ -374,8 +379,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -389,7 +408,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 131.64111}
@@ -414,7 +433,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 131.25977}
@@ -439,7 +458,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 132.3418}
@@ -464,7 +483,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 131.95508}
@@ -489,7 +508,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 132.3418}
@@ -514,7 +533,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 132.49023}
@@ -539,7 +558,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 132.57227}
@@ -564,7 +583,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 133.49414}
@@ -589,7 +608,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 131.57227}
@@ -614,7 +633,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -248, y: 256}
@@ -641,7 +660,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -666,7 +685,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -691,7 +710,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -716,7 +735,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -741,7 +760,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -760,13 +779,13 @@ TextureImporter:
       name: Tileset_Alien_Fill5
       rect:
         serializedVersion: 2
-        x: 3072
+        x: 3083
         y: 7168
         width: 512
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -791,7 +810,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -810,13 +829,13 @@ TextureImporter:
       name: Tileset_Alien_WallRight0
       rect:
         serializedVersion: 2
-        x: 4096
+        x: 4107
         y: 7168
         width: 512
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -841,7 +860,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -253, y: 256}
@@ -867,7 +886,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -919,7 +938,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -944,7 +963,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -247, y: 256}
@@ -969,7 +988,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -249, y: 256}
@@ -991,13 +1010,13 @@ TextureImporter:
       name: Tileset_Alien_Ceiling2
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 1035
         y: 6144
         width: 512
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -1023,7 +1042,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -1050,7 +1069,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -1076,7 +1095,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -1103,7 +1122,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -1123,13 +1142,13 @@ TextureImporter:
       name: Tileset_Alien_CeilingCornerOuterRight
       rect:
         serializedVersion: 2
-        x: 3584
-        y: 6144
+        x: 3595
+        y: 6133
         width: 512
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -1157,7 +1176,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: 222, y: 9}
@@ -1186,7 +1205,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -252, y: 256}
@@ -1212,7 +1231,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 133.96436}
@@ -1237,7 +1256,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 131.57812}
@@ -1262,7 +1281,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -1287,7 +1306,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -252, y: 256}
@@ -1317,7 +1336,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 132.28467}
@@ -1344,7 +1363,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 132.4419}
@@ -1369,7 +1388,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -1394,7 +1413,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -247, y: 256}
@@ -1420,7 +1439,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -1465,13 +1484,13 @@ TextureImporter:
       name: Tileset_Alien_FloorSingleBlock1
       rect:
         serializedVersion: 2
-        x: 1536
+        x: 1513
         y: 4608
         width: 512
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: 256, y: 132.67432}
@@ -1496,7 +1515,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -254, y: 256}
@@ -1518,12 +1537,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4096
-        y: 4608
+        y: 4619
         width: 512
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -1548,7 +1567,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -253, y: 256}
@@ -1574,7 +1593,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 133.22705}
@@ -1599,7 +1618,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 132.26709}
@@ -1649,7 +1668,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 133.03418}
@@ -1674,7 +1693,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -1699,7 +1718,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -1720,12 +1739,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3072
+        y: 3083
         width: 512
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape:
       - - {x: -256, y: 256}
@@ -1751,7 +1770,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1772,7 +1791,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1793,7 +1812,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1814,7 +1833,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1835,7 +1854,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1856,7 +1875,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1892,13 +1911,13 @@ TextureImporter:
       name: Tileset_Alien_CeilingCornerFloorLeft
       rect:
         serializedVersion: 2
-        x: 1536
+        x: 1525
         y: 5120
         width: 512
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1919,7 +1938,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1940,7 +1959,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1961,7 +1980,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 1, z: 1, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1982,7 +2001,7 @@ TextureImporter:
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -2002,8 +2021,8 @@ TextureImporter:
         width: 512
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -2017,7 +2036,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b23667581a2034d4e85238ad67926f0d
     internalID: 0
     vertices: []
     indices: 
@@ -2025,75 +2044,77 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tileset_Alien_CeilingCornerOuterLeft: 21300056
-      Tileset_Alien_FloorCornerOuterLeft: 21300000
-      Tileset_Alien_SingleColumnCentreCeiling: 21300174
-      Tileset_Alien_FloorSingleBlock0: 21300104
-      Tileset_Alien_WallLeftCornerFloor: 21300180
-      Tileset_Alien_Ceiling3: 21300060
-      Tileset_Alien_Ceiling1: 21300050
-      Tileset_Alien_Ceiling6: 21300066
-      Tileset_Alien_WallLeft0: 21300018
-      Tileset_Alien_WallLeft3: 21300072
-      Tileset_Alien_89: 21300144
-      Tileset_Alien_Floor0: 21300002
-      Tileset_Alien_SingleBlock: 21300088
-      Tileset_Alien_CeilingCornerFloorRight: 21300170
-      Tileset_Alien_WallRight6: 21300128
-      Tileset_Alien_FloorSingleBlock: 21300074
-      Tileset_Alien_FloorSingleBlock3: 21300124
-      Tileset_Alien_SingleBlockCornerLeft: 21300166
-      Tileset_Alien_RightWallCorner: 21300108
-      Tileset_Alien_Floor5: 21300012
-      Tileset_Alien_SingleColumnwall1: 21300160
-      Tileset_Alien_WallRight3: 21300084
-      Tileset_Alien_SingleColumnBottom: 21300178
-      Tileset_Alien_FloorCornerOuterRight: 21300016
-      Tileset_Alien_FloorSingleBlock1: 21300106
-      Tileset_Alien_Fill3: 21300026
-      Tileset_Alien_Fill5: 21300030
-      Tileset_Alien_Fill2: 21300024
-      Tileset_Alien_Floor3: 21300008
-      Tileset_Alien_WallLeft5: 21300100
-      Tileset_Alien_SingleColumnwall2: 21300162
+      Tileset_Alien_0: -1935720988
+      Tileset_Alien_1: 492064540
+      Tileset_Alien_2: 967613644
       Tileset_Alien_80: 21300130
-      Tileset_Alien_Fill1: 21300022
-      Tileset_Alien_WallLeft4: 21300086
-      Tileset_Alien_CeilingCornerFloorLeft: 21300172
-      Tileset_Alien_SingleColumnwall3: 21300164
-      Tileset_Alien_SingleColumnwall0: 21300158
-      Tileset_Alien_WallRightCornerFloor: 21300182
-      Tileset_Alien_FloorCornerInnerRight0: 21300090
-      Tileset_Alien_WallRight5: 21300116
-      Tileset_Alien_Fill6: 21300032
-      Tileset_Alien_WallLeft1: 21300036
-      Tileset_Alien_FloorSingleBlock2: 21300122
-      Tileset_Alien_Floor1: 21300004
-      Tileset_Alien_WallLeft6: 21300118
-      Tileset_Alien_FloorSingleBlockRight: 21300126
-      Tileset_Alien_WallLeft2: 21300054
+      Tileset_Alien_89: 21300144
+      Tileset_Alien_Ceiling0: 21300048
+      Tileset_Alien_Ceiling1: 21300050
+      Tileset_Alien_Ceiling2: 21300058
+      Tileset_Alien_Ceiling3: 21300060
       Tileset_Alien_Ceiling4: 21300062
-      Tileset_Alien_WallRight4: 21300098
+      Tileset_Alien_Ceiling5: 21300064
+      Tileset_Alien_Ceiling6: 21300066
+      Tileset_Alien_CeilingCornerFloorLeft: 21300172
+      Tileset_Alien_CeilingCornerFloorRight: 21300170
+      Tileset_Alien_CeilingCornerOuterLeft: 21300056
+      Tileset_Alien_CeilingCornerOuterRight: 21300068
       Tileset_Alien_Fill0: 21300020
-      Tileset_Alien_LeftWallCorner: 21300102
-      Tileset_Alien_Floor6: 21300014
+      Tileset_Alien_Fill1: 21300022
+      Tileset_Alien_Fill2: 21300024
+      Tileset_Alien_Fill3: 21300026
+      Tileset_Alien_Fill4: 21300028
+      Tileset_Alien_Fill5: 21300030
+      Tileset_Alien_Fill6: 21300032
+      Tileset_Alien_Floor0: 21300002
+      Tileset_Alien_Floor1: 21300004
       Tileset_Alien_Floor2: 21300006
+      Tileset_Alien_Floor3: 21300008
+      Tileset_Alien_Floor4: 21300010
+      Tileset_Alien_Floor5: 21300012
+      Tileset_Alien_Floor6: 21300014
       Tileset_Alien_FloorCornerInnerLeft0: 21300076
+      Tileset_Alien_FloorCornerInnerRight0: 21300090
+      Tileset_Alien_FloorCornerOuterLeft: 21300000
+      Tileset_Alien_FloorCornerOuterRight: 21300016
+      Tileset_Alien_FloorSingleBlock: 21300074
+      Tileset_Alien_FloorSingleBlock0: 21300104
+      Tileset_Alien_FloorSingleBlock1: 21300106
+      Tileset_Alien_FloorSingleBlock2: 21300122
+      Tileset_Alien_FloorSingleBlock3: 21300124
+      Tileset_Alien_FloorSingleBlockLeft: 21300120
+      Tileset_Alien_FloorSingleBlockRight: 21300126
+      Tileset_Alien_LeftWallCorner: 21300102
+      Tileset_Alien_RightWallCorner: 21300108
+      Tileset_Alien_SingleBlock: 21300088
+      Tileset_Alien_SingleBlockCornerLeft: 21300166
+      Tileset_Alien_SingleBlockCornerRight: 21300168
+      Tileset_Alien_SingleColumnBottom: 21300178
+      Tileset_Alien_SingleColumnCentreCeiling: 21300174
+      Tileset_Alien_SingleColumnCentreCorners: 21300176
+      Tileset_Alien_SingleColumnwall0: 21300158
+      Tileset_Alien_SingleColumnwall1: 21300160
+      Tileset_Alien_SingleColumnwall2: 21300162
+      Tileset_Alien_SingleColumnwall3: 21300164
+      Tileset_Alien_WallLeft0: 21300018
+      Tileset_Alien_WallLeft1: 21300036
+      Tileset_Alien_WallLeft2: 21300054
+      Tileset_Alien_WallLeft3: 21300072
+      Tileset_Alien_WallLeft4: 21300086
+      Tileset_Alien_WallLeft5: 21300100
+      Tileset_Alien_WallLeft6: 21300118
+      Tileset_Alien_WallLeftCornerFloor: 21300180
+      Tileset_Alien_WallRight0: 21300034
       Tileset_Alien_WallRight1: 21300052
       Tileset_Alien_WallRight2: 21300070
-      Tileset_Alien_FloorSingleBlockLeft: 21300120
-      Tileset_Alien_SingleBlockCornerRight: 21300168
-      Tileset_Alien_Ceiling0: 21300048
-      Tileset_Alien_Ceiling5: 21300064
-      Tileset_Alien_SingleColumnCentreCorners: 21300176
-      Tileset_Alien_WallRight0: 21300034
-      Tileset_Alien_Floor4: 21300010
-      Tileset_Alien_Fill4: 21300028
-      Tileset_Alien_CeilingCornerOuterRight: 21300068
-      Tileset_Alien_Ceiling2: 21300058
-  spritePackingTag: 
+      Tileset_Alien_WallRight3: 21300084
+      Tileset_Alien_WallRight4: 21300098
+      Tileset_Alien_WallRight5: 21300116
+      Tileset_Alien_WallRight6: 21300128
+      Tileset_Alien_WallRightCornerFloor: 21300182
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

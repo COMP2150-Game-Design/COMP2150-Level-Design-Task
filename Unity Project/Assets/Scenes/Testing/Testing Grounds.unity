@@ -860,11 +860,26 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3320812780162809300, guid: bb0018ce3a8caa643b44f8487c34bd25,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4763125205162874, guid: bb0018ce3a8caa643b44f8487c34bd25,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 866817321}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb0018ce3a8caa643b44f8487c34bd25, type: 3}
+--- !u!4 &808842119 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4763125205162874, guid: bb0018ce3a8caa643b44f8487c34bd25,
+    type: 3}
+  m_PrefabInstance: {fileID: 782878104}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &866817320
 GameObject:
   m_ObjectHideFlags: 0
@@ -874,7 +889,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 866817321}
-  - component: {fileID: 866817322}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -890,26 +904,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 866817320}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.05, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -5, z: 13.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 69717848}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 808842119}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &866817322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 866817320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1c045cfa8f814921a02943df2f273d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &978096695
 Transform:
   m_ObjectHideFlags: 0
@@ -12150,7 +12152,6 @@ SceneRoots:
   - {fileID: 1141565044}
   - {fileID: 275979979}
   - {fileID: 978096695}
-  - {fileID: 866817321}
   - {fileID: 4674189499744961152}
   - {fileID: 999021986}
   - {fileID: 47665971}
