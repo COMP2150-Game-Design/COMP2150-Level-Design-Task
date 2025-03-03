@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Whoopsie.unity
     guid: 1fec2fd489e934cd191750af99f08067
+  - enabled: 1
+    path: Assets/Testing Grounds.unity
+    guid: aea5c642df2544edca87c42d0b8cffa2
   m_configObjects: {}
