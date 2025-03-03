@@ -1,12 +1,14 @@
-COMP2150  - Level Design Document
-Name: [your name]
-Student number: [your student number] 
-In this document, discuss and reflection the design of your platformer level. It should be approximately 1500 words in length. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
+# COMP2150  - Level Design Document
+## Name: [your name]
+## Student number: [your student number] 
+In this document, discuss and reflect on the design of your platformer level. It should be approximately 1500 words in length. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. You can check word count by copying this text into a Word or Google doc.
+
 Your document must include images. To insert an image into your documentation, place it in the "DocImages" folder in this repo, then place the below text where you want the image to appear:
 ```
 ![Place any alt text here](DocImages/<IMAGE NAME AND FILE EXTENSION>)
 ```
 Example:
+
 ![This is the alt text for an image!](DocImages/exampleimage.png)
 
 ## 1. Player Experience (~700 words)
@@ -51,18 +53,25 @@ You should restructure the headings below to match the order they appear in your
 ### 2.11. Weapon Pickup (Staff)
 
 ## 3. Iterative Design (~400 words)
-Reflect on how iterative design helped to improve your level. At least two forms of prototypes discussed in the lectures, as well as any other relevant design artefacts, should be included to demonstrate that you followed an iterative design process. You should also use this section to justify design changes made in your final level once you had built it as the result of playtesting or other iteration. 
+Reflect on how iterative design helped to improve your level. At least three forms of prototypes discussed in the lectures, as well as any other relevant design artefacts, should be included to demonstrate that you followed an iterative design process. You should also use this section to justify design changes made in your final level once you had built it as the result of playtesting or other iteration. 
 You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
 
 ## Generative AI Use Acknowledgement
 Document any use of Generative AI or writing assistant tools used in creating your assignment. Please be honest and thorough in your reporting, as this will allow us to give you the marks you have earnt. Place any drafts or other evidence inside this repository, and reference them where appropriate below. This form and related evidence do not count to your word count.
-An example has been included. Please replace this with any actual tools and add more as necessary. If you did not use Generative AI when creating your assignment, remove this section entirely.
+An example has been included. Please replace this with any actual tools and add more as necessary. 
+
+<b>If you did not use Generative AI when creating your assignment, remove this section entirely.</b>
+
 ### Tool Used: ChatGPT
 **Nature of Use** Finding relevant design theory.
+
 **Evidence Attached?** Screenshot of ChatGPT conversation included in the folder "GenAI" in this repo.
+
 **Additional Notes:** I used ChatGPT to try and find some more relevant design theory that I could apply to my game. After googling them, however, I found most of them were inaccurate, and some didn't exist. One theory mentioned, however, was useful, and I've incorporated it into my work.
+
 ### Tool Used: Example
 **Nature of Use** Example Text
 
 **Evidence Attached?** Example Text
+
 **Additional Notes:** Example Text

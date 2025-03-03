@@ -18,7 +18,7 @@ namespace Gamekit2D
         {
             NewSceneCreator window = GetWindow<NewSceneCreator> ();
             window.Show();
-            window.m_NewSceneName = "NewScene";
+            window.m_NewSceneName = "Main";
         }
 
         void OnGUI ()
@@ -70,7 +70,7 @@ namespace Gamekit2D
 
             if (result.Length > 0)
             {
-                string newScenePath = "Assets/" + m_NewSceneName + ".unity";
+                string newScenePath = "Assets/Scenes/" + m_NewSceneName + ".unity";
                 AssetDatabase.CopyAsset(AssetDatabase.GUIDToAssetPath(result[0]), newScenePath);
                 AssetDatabase.Refresh();
                 Scene newScene = EditorSceneManager.OpenScene(newScenePath, OpenSceneMode.Single);
