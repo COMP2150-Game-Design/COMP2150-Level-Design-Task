@@ -20,9 +20,7 @@ The assignment includes two main deliverables: your Level built in Unity, and yo
 # Level
 Design and build one level with three main sections. Imagine you are working on the second level of a new space-themed, 2D platformer. For the purposes of this task, the exact type of platformer (action, puzzle, precision, etc) is up to you. Your project lead has given you the following brief:
 
-```
 "We need you to build the second level of the game. This is where players are going to be introduced to both the staff and gun weapons, as well as more of the advanced platforming mechanics like the moving and pass-through platforms. The player should also get a good idea about the way we handle exploration in the game, so make sure to bake-in some non-linearity. They already know the basic movement controls of running, crouching and jumping."
-```
 
 The first section of your level should introduce the player to the main mechanics of the level, while the second and third should increase challenge and complexity through dramatic pacing. All three sections should be distinct, but form a coherent/connected level. Your design process and rationale are to be presented in the Design Document.
 
