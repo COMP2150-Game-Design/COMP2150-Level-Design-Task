@@ -34,29 +34,35 @@ EditorBuildSettings:
     guid: a341347ecfade124f817cac8ea56a209
   - enabled: 1
     path: Assets/Scenes/Main.unity
-    guid: 26dfaab476091ba4b8089ef9cbe1c09a
+    guid: 78cbd304e04ad4e0eb1a8eaf6c7772d3
   - enabled: 1
     path: Assets/Scenes/End Of Game.unity
     guid: c65f04d88e8847d4dbf6e44296752a8d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Whoopsie.unity
     guid: 1fec2fd489e934cd191750af99f08067
   - enabled: 1
     path: Assets/Scenes/Testing/Testing Grounds.unity
-    guid: aea5c642df2544edca87c42d0b8cffa2
-  - enabled: 1
+    guid: a32637a2bfa8645b3aa91a781fc6ddc7
+  - enabled: 0
     path: Assets/Scenes/Whoopsie.unity
     guid: 26eb9b65eefc2437f90fab56a6b3ed57
   - enabled: 1
     path: Assets/Scenes/Main.unity
-    guid: ca0cc2f1206e94379a3d396647c200f2
-  - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: c3282d02cbd4642b585710ac9ae3f6a0
-  - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: 890c79e9522714a38b1ee698d07a7008
+    guid: 78cbd304e04ad4e0eb1a8eaf6c7772d3
   - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 78cbd304e04ad4e0eb1a8eaf6c7772d3
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 78cbd304e04ad4e0eb1a8eaf6c7772d3
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 78cbd304e04ad4e0eb1a8eaf6c7772d3
+  - enabled: 0
+    path: Assets/Scenes/2.unity
+    guid: 269e7892b61bf47318d60b79ef3d3257
+  - enabled: 1
+    path: Assets/Scenes/Testing/CamTest.unity
+    guid: f0a2630ba769e4af4958994f8c8a7d6a
   m_configObjects: {}
