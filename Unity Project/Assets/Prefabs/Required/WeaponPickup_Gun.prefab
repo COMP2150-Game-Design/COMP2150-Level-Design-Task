@@ -84,12 +84,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -928045347, guid: a69d1b61eeb3b4e6490e99bf007197c4, type: 3}
+  m_Sprite: {fileID: 237408940, guid: 0506b9071ef164433a08780d52bd8809, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4, y: 2}
+  m_Size: {x: 10.24, y: 10.24}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -175,7 +175,7 @@ MonoBehaviour:
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: -2113887479, guid: a69d1b61eeb3b4e6490e99bf007197c4,
+          m_ObjectArgument: {fileID: 578638633, guid: 0506b9071ef164433a08780d52bd8809,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
