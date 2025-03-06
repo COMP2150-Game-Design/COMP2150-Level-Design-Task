@@ -25,7 +25,7 @@ Design and build one level with three main sections. Imagine you are working on 
 The first section of your level should introduce the player to the main mechanics of the level, while the second and third should increase challenge and complexity through dramatic pacing. All three sections should be distinct, but form a coherent/connected level. Your design process and rationale are to be presented in the Design Document.
 
 ## Player Experience Goals
-The level must consist of a series of well-planned encounters which together deliver on the following player experience goals. Refer back to the lecture notes and SGTA tasks for more details on how to achieve these goals.
+The level must consist of a series of well-planned encounters which together deliver on the following player experience goals. Refer back to the lecture notes, SGTAs and Practicals for more details on how to achieve these goals.
 
 <b>Discovery:</b> The level should facilitate the player’s discovery of mechanics and dynamics without written instruction. Mechanics should be introduced safely and individually in section 1, before the player must use them under pressure and in combination (to learn new dynamics) in later sections. You can assume the player already knows the controls.
 
