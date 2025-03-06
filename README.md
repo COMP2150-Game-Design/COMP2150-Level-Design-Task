@@ -15,7 +15,7 @@ This assignment requires no coding, and frameworks for both the game and documen
 
 Your level should teach the player the essential mechanics and dynamics of the game, achieving the design goals of <b>Discovery</b>, <b>Drama</b>, <b>Challenge</b> and <b>Exploration</b>. Your level should be a series of interesting, well-designed encounters that are the result of planning and prototyping your game using theory and practices taught in class.
 
-The assignment includes two main deliverables: your Level built in Unity, and your Design Document that documents and justifies your use of an iterative design process to create your level.
+The assignment includes two main deliverables: your Level built in Unity, and your Design Document that documents and justifies your use of an iterative design process to create your level. This repo also contains a Prefab Reference Guide with info on all the prefabs you'll be using.
 
 # Level
 Design and build one level with three main sections. Imagine you are working on the second level of a new space-themed, 2D platformer. For the purposes of this task, the exact type of platformer (action, puzzle, precision, etc) is up to you. Your project lead has given you the following brief:
