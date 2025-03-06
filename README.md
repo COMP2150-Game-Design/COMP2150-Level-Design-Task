@@ -91,6 +91,9 @@ Be sure to commit and push your work regularly. No sympathy will be shown if you
 
 # Other Info
 
+## Resources and Help
+A Prefab Reference Guide is contained in this repo, which you should refer to for how to use each prefab. If you have any questions, please post them in the Level Design Discussion Forum on iLearn. For additional guidance, you can also refer to the [Unity 2D Game Kit Guide](https://learn.unity.com/project/2d-game-kit).
+
 ## Use of Generative AI
 Generative AI tools can empower students in their writing and facilitate greater communication of the course concepts. If ChatGPT or writing tools such as Grammarly are part of your workflow, you must detail your use using the template in DesignDocument.md. This will allow your marker to evaluate whether your use of Generative AI is appropriate, and where marks can be awarded. We will also be able to give you feedback on your use of Generative AI, so you can improve your practices in the future.
 
@@ -98,8 +101,6 @@ Failure to declare the use of these tools may result in penalties or reports of 
 
 The library has created resources on the use of Generative AI which can be found [here]( https://libguides.mq.edu.au/generativeai). 
 
-## Resources and Help
-If you have any questions, please post them in the Level Design Discussion Forum on iLearn. For additional guidance, you can also refer to the [Unity 2D Game Kit Guide](https://learn.unity.com/project/2d-game-kit).
 
 # Rubric
 The assignment will be marked according to the following rubric. Broken or improperly submitted assignments may result in F-grades on the basis they cannot be marked. While spelling and grammar are not marked directly, poor written expression or document formatting may impact clarity content, and result in a loss of marks. 
