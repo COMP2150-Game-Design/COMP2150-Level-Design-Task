@@ -9855,7 +9855,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &114060273860367882
 MonoBehaviour:
@@ -9873,7 +9873,7 @@ MonoBehaviour:
   offset: {x: 0, y: 0}
   size: {x: 6.88, y: 2}
   sortingLayerID: 0
-  sortingLayerOrder: 3
+  sortingLayerOrder: 0
   dampening: 0.93
   tension: 0.025
   neighbourTransfer: 0.03
