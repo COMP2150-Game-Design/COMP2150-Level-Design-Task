@@ -23,13 +23,16 @@ The player can be controlled using a keyboard or gamepad. You can switch between
 
 ![Switching the controls.](ReferenceGuideImages/control.png)
 
+The controls are below. Note that Gamepad controls are based on Unity settings, and may differ based on controller used. Make sure you test this out and get familiar with the controller you plan on using for making your assignment (yes, you can bring your own to class!). I (Cameron) have been testing with a PS4 controller connected to my Mac.
+
 |Keyboard control | Gamepad control | Action performed|
 |-----|-----|----|
 |A/D | Left analog stick | Move left/right|
-|Space |B | Jump|
+|Space | B | Jump|
 S| Down on the left analog stick | Crouch (combine with jump to move through a Passthrough Platform)|
-K | A | Swing staff (after pickup)|
+K | X | Swing staff (after pickup)|
 O |Right bumper | Shoot gun (after pickup)|
+E| Y | Interact |
 
 ## The Hierarchy
 The hierarchy is set up to contain all the important components to make the game work. You shouldn’t need to worry about most of these. Objects immediately underneath ---System---, cannot be children of a parent, as they contain helper code components that utilize something called DontDestroyOnLoad, such as the background music or the inventory. 
