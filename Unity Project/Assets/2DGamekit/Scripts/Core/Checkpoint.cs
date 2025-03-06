@@ -7,8 +7,17 @@ namespace Gamekit2D
     [RequireComponent(typeof(BoxCollider2D))]
     public class Checkpoint : MonoBehaviour
     {
+        private SpriteRenderer renderer;
+        private AudioSource clip;
+        [SerializeField] private Sprite activatedSprite;
+
         public bool respawnFacingLeft;
 
+        private void Awake()
+        {
+            renderer = GetComponent<SpriteRenderer>();
+            clip = GetComponent<AudioSource>();
+        }
         private void Reset()
         {
             GetComponent<BoxCollider2D>().isTrigger = true; 
@@ -20,6 +29,11 @@ namespace Gamekit2D
             if(c != null)
             {
                 c.SetChekpoint(this);
+                if (renderer != null)
+                {
+                    renderer.sprite = activatedSprite; 
+                    clip.Play();
+                }
             }
         }
     }
