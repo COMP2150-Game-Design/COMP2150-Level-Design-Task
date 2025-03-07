@@ -23830,6 +23830,26 @@ PrefabInstance:
       propertyPath: keyDirectorTrigger
       value: 
       objectReference: {fileID: 475116402}
+    - target: {fileID: 3260126500187019852, guid: fcf2c8baeee3642e2aae482492446fbd,
+        type: 3}
+      propertyPath: requiredInventoryItemKeys.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260126500187019852, guid: fcf2c8baeee3642e2aae482492446fbd,
+        type: 3}
+      propertyPath: requiredInventoryItemKeys.Array.data[0]
+      value: Key1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260126500187019852, guid: fcf2c8baeee3642e2aae482492446fbd,
+        type: 3}
+      propertyPath: requiredInventoryItemKeys.Array.data[1]
+      value: Key2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260126500187019852, guid: fcf2c8baeee3642e2aae482492446fbd,
+        type: 3}
+      propertyPath: requiredInventoryItemKeys.Array.data[2]
+      value: Key3
+      objectReference: {fileID: 0}
     - target: {fileID: 4113693991874443012, guid: fcf2c8baeee3642e2aae482492446fbd,
         type: 3}
       propertyPath: inventoryController

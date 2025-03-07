@@ -29,7 +29,7 @@ The controls are below. Note that Gamepad controls are based on Unity settings, 
 |-----|-----|----|
 |A/D | Left analog stick | Move left/right|
 |Space | B | Jump|
-S| Down on the left analog stick | Crouch (combine with jump to move through a Passthrough Platform)|
+S| Down on the left analog stick | Crouch (combine with jump to move through a Passthrough Platform). Hold to tilt camera down.|
 K | X | Swing staff (after pickup)|
 O |Right bumper | Shoot gun (after pickup)|
 E| Y | Interact |
@@ -48,7 +48,7 @@ The following is a list of prefabs and where to find them within the Assets fold
 
 ## Required Prefabs
 ## Acid
-Prefab: Prefabs/Required/Acid
+Located at: Prefabs/Required/Acid
 
 The Acid hurts the player when they fall into it. The player will lose one (1) point of health and will be sent back to the last checkpoint (or the beginning of the level).
 
@@ -57,39 +57,40 @@ If you want to increase the size of the Acid, please do not use the scale tool, 
 ![Editing the acid area.](ReferenceGuideImages/acid.png)
  
 ## Checkpoints
-Prefab: Prefabs/Required/Checkpoint
+Located at: `Prefabs/Required/Checkpoint`
 
 If the player falls in acid they will restart at the most recent checkpoint they have touched, as long as they still have some health (if they have 0 health, they will restart at the beginning of the level). Note that checkpoints should be placed on the ground. Checkpoints light up upon activation.
 
 ## Chomper
-Prefab: Prefabs/Required/Chomper
+Located at: `Prefabs/Required/Chomper`
+
 An enemy that bites/melee’s the player, dealing one (1) damage per hit.
 
 ## Health Pickup
-Prefab: Prefabs/Required/HealthPickup
+Located at: `Prefabs/Required/HealthPickup`
 
 The Health Pickup adds one (1) point of health to the player, by default.
 
 ## Key
-Prefab: Prefabs/Required/Key
+Located at: `Prefabs/Required/Key`
 
 A collectible key. You need to pick up three to open the Key Door (Note: Clip should be left blank).
 
 ![Key settings.](ReferenceGuideImages/key.png)
 ## Key Door
-Prefab: Prefabs/Required/KeyDoor
+Located at: `Prefabs/Required/KeyDoor`
 
 A door that opens when all three keys are collectable, transitioning to a different scene.
 
 Note: The Key Door has already been configured to work in the assignment template to transition between your Main level & the Game Over scene. Please check the Level Design Discussion Forum on iLearn if you are encountering problems.
 
 ## Passthrough Platform
-Prefabs:  Prefabs/Required/PassThroughPlatform | Prefabs/Required/PassThroughPlatformLong
+Located at: `Prefabs/Required/PassThroughPlatform` and `Prefabs/Required/PassThroughPlatformLong`
 
 This is a platform that the player can move upwards through. If the player is crouching on top of a Passthrough Platform and presses the jump button, they will instead fall through it.
 
 ## Moving Platforms
-Prefabs:  Prefabs/Required/MovingPlatform | Prefabs/Required/MovingPlatformLong
+Located at: `Prefabs/Required/MovingPlatform` and `Prefabs/Required/MovingPlatformLong`
 
 A variant of the passthrough platform that follows a defined path, using nodes. Multiple nodes can be used, as well as multiple loop types (Once, back and forth). You can modify these settings in the Moving Platform Script Component.
 
@@ -98,16 +99,17 @@ A variant of the passthrough platform that follows a defined path, using nodes. 
 Note: We have found setting the Speed variable to anything above 2 results in the player not moving with the platform properly when moving down. These speeds should be set to 2 by default, but it is worth checking if you have unexpected results. This becomes especially important if you have a platform activated by a pressure pad.
  
 ## Spikes
-Prefab: Prefabs/Required/Spikes
+Located at: `Prefabs/Required/Spikes`
 
 When the player collides with the Spikes, the player loses one (1) point of health. 
 
 ## Spitter
-Prefab: Prefabs/Required/Spitter
+Located at: `Prefabs/Required/Spitter`
+
 An enemy that spits acid at the player. Acid deals one (1) damage per hit.
 
 ## Weapon Pickups (Staff and Gun)
-Prefab: Prefabs/Required/Staff_Pickup | Prefabs/Required/Gun_Pickup
+Located at: `Prefabs/Required/Staff_Pickup` and  `Prefabs/Required/Gun_Pickup`
 
 The player does not initially have a weapon. There are two weapon pickups which vary on which weapon they give the player.
 
@@ -116,7 +118,7 @@ The player does not initially have a weapon. There are two weapon pickups which 
 
 ## Optional Prefabs
 ## Trigger Door
-Prefab: Prefabs/Optional/TriggerDoor
+Located at: `Prefabs/Optional/TriggerDoor`
 
 A barrier that cannot be bypassed without triggering a thing (For example, a pressure pad, a switch, or a trigger collider, although you could probably find other ways to trigger it open). 
 
@@ -125,43 +127,43 @@ Can be open or closed using the Animator (Animator.Play(DoorOpening or DoorClosi
 ![Trigger door.](ReferenceGuideImages/triggerdoor.png)
 
 ## Bridge
-Prefab: Prefabs/Optional/Bridge
+Located at: `Prefabs/Optional/Bridge`
 
-A barrier that cannot be bypassed without triggering a thing, similar to the TriggerDoor. Can be moved once using Animator.Play(Bridge). Example using a pressure pad:
+A barrier that cannot be bypassed without triggering a thing, similar to the TriggerDoor. Can be moved once using `Animator.Play(Bridge)`. Example using a pressure pad:
 
 ![Bridge.](ReferenceGuideImages/bridge.png)
 
 ## Pressure Pad
-Prefab: Prefabs/Optional/PressurePad
+Located at: `Prefabs/Optional/PressurePad`
 
-An object that when the player stands on, can trigger some event (such as a bridge activating, or a door opening). This can be set by adding the object’s animator to the OnPressed() condition in the Inspector, as shown below. OnRelease() can also be used, so that other things happen when the pressure pad is stepped-off (such as doors closing again, or anything else you can access via the interface).
+An object that when the player stands on, can trigger some event (such as a bridge activating, or a door opening). This can be set by adding the object’s animator to the `OnPressed()`condition in the Inspector, as shown below. `OnRelease()` can also be used, so that other things happen when the pressure pad is stepped-off (such as doors closing again, or anything else you can access via the interface).
 
 ![Pressure Pad.](ReferenceGuideImages/pressurepad.png)
 
 ## Switches
-Prefab: Prefabs/Optional/ReusableSwitch | Prefabs/Optional/SingleUseSwitch
+Located at: `Prefabs/Optional/ReusableSwitch` and `Prefabs/Optional/SingleUseSwitch`
 
 A switch which, like the pressure pad, activates an object when it collides with another object. You can specify what object activates it (such as the player) by setting the “Layers” drop-down in the inspector. By default, it reacts to Everything.
 
 ### There are two switches: 
-The Reusable Switch can be acivated multiple times. By default, it reacts to Everything.
+<b>The Reusable Switch</b> can be acivated multiple times. By default, it reacts to Everything.
 ![Reusable Switch](ReferenceGuideImages/reusableswitch.png)
 
-The Single Use Switch can only be activated once. By default, it reacts to bullets.
+<b>The Single Use Switch</b> can only be activated once. By default, it reacts to bullets.
 ![Single Use Switch](ReferenceGuideImages/singleuseswitch.png)
 
 ## Pushable Block
-Prefab: Prefabs/Optional/PushableBlock
+Located at: `Prefabs/Optional/PushableBlock`
 
-A large block that the player can push back and forth by running into it. Can be stood on! It interacts with objects in interesting ways...
+A large block that the player can push back and forth by running into it. Can be stood on! It interacts with objects in interesting ways...what happens when you drop it on other objects?!
 
 ## Destructibles
-Prefab: Prefabs/Optional/DestructableColumn | Prefabs/Optional/DestructableWall
+Located at: `Prefabs/Optional/DestructableColumn` and `Prefabs/Optional/DestructableWall`
 
 Destructable objects that can be broken by hitting with the staff. The barrier has one (1) health by default. The wall has five (5) health by default.
 
 ## Enemy Spawner
-Prefab: Prefabs/Optional/EnemySpawner
+Located at: `Prefabs/Optional/EnemySpawner`
 
 Can be used to spawn groups of enemies. This GameObject has several properties, such as making sure only x amount of enemies can be spawned at a time. Below is an example of an implementation set to ensure that only one enemy is spawned at a time and that enemy will always be there.
 

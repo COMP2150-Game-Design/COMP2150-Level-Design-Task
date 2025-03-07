@@ -17,6 +17,9 @@ Your level should teach the player the essential mechanics and dynamics of the g
 
 The assignment includes two main deliverables: your Level built in Unity, and your Design Document that documents and justifies your use of an iterative design process to create your level. This repo also contains a Prefab Reference Guide with info on all the prefabs you'll be using.
 
+# Unity Version
+This framework has been made using Unity 2022.3.58f1. You must use this version of Unity for your assignment. Use of another version of Unity may result in your assignment being corrupted or prevent it from being marked entirely.
+
 # Level
 Design and build one level with three main sections. Imagine you are working on the second level of a new space-themed, 2D platformer. For the purposes of this task, the exact type of platformer (action, puzzle, precision, etc) is up to you. Your project lead has given you the following brief:
 
@@ -64,11 +67,8 @@ The Unity Project contains a scene called `Main` within the `Assets > Scenes` fo
 The `Main` scene is already set-up with a player avatar, an end-of-level door, and three keys for you to position when building your level. If you need to start your scene again, you can create a new one by pressing `Kit Tools > Create New Scene`. Make sure you name this scene appropriately.
 ![Image of the Create New Scene drop-down](DocImages/newscene.png)
 
-### Unity Version
-This framework has been made using Unity 2022.3.58f1. You must use this version of Unity for your assignment. Use of another version of Unity may result in your assignment being corrupted or prevent it from being marked entirely.
-
 # Design Document
-Your Design Document is a 1500 word document that discusses how your level design achieves the requirements above. It must include screenshots, storyboards and at least three forms of prototypes, discussed in the lectures (molecule diagrams, level maps, greyboxes, etc). Your design document should not only show these prototypes, but also provide justification as to why they were chosen and their role in your iterative design process.
+Your Design Document is a 1500 document that discusses how your level design achieves the requirements above. It must include screenshots, storyboards and at least three forms of prototypes, discussed in the lectures (molecule diagrams, level maps, greyboxes, etc). Your design document should not only show these prototypes, but also provide justification as to why they were chosen and their role in your iterative design process.
 
 ## Framework
 This repository contains a file called DesignDocument.md. This is the template document for your design document. It contains the template text, including examples on how to insert images, as well as the required section headings and what content should be included. You should edit this file and replace the template text with your own. Make sure you address each section appropriately. 
@@ -83,7 +83,7 @@ After the assignment due date, we will clone all assignment repositories and beg
 
 To ensure your assignment is marked correctly, check the following before your final submission:
 * Your final level is named `Main` and located in the `Scenes` folder.
-* Your design document is complete as the DesignDocument.md file in your repository and displays correctly when opened on github.com.
+* Your have completly filled out <b>DesignDocument.md</b> and pushed it to Github.
 * All supporting images display correctly in the Design Document and have been pushed to the `DocImages` folder.
 * Any additional prototyping scenes such as testing arenas are named appropriately and in the `Assets > Scenes` folder (inside sub-folders where appropriate).
 
@@ -92,7 +92,7 @@ Be sure to commit and push your work regularly. No sympathy will be shown if you
 # Other Info
 
 ## Resources and Help
-A Prefab Reference Guide is contained in this repo, which you should refer to for how to use each prefab. If you have any questions, please post them in the Level Design Discussion Forum on iLearn. For additional guidance, you can also refer to the [Unity 2D Game Kit Guide](https://learn.unity.com/project/2d-game-kit).
+A Prefab Reference Guide is contained at the top level of this repo as [`PrefabReferenceGuide.md`](/PrefabReferenceGuide.md)which you should refer to for how to use each prefab. If you have any questions, please post them in the Level Design Discussion Forum on iLearn. For additional guidance, you can also refer to the [Unity 2D Game Kit Guide](https://learn.unity.com/project/2d-game-kit).
 
 ## Use of Generative AI
 Generative AI tools can empower students in their writing and facilitate greater communication of the course concepts. If ChatGPT or writing tools such as Grammarly are part of your workflow, you must detail your use using the template in DesignDocument.md. This will allow your marker to evaluate whether your use of Generative AI is appropriate, and where marks can be awarded. We will also be able to give you feedback on your use of Generative AI, so you can improve your practices in the future.

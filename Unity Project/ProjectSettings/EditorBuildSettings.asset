@@ -29,24 +29,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/2DGamekit/Scenes/UI/Loading.unity
     guid: ebc4647ff02971c4ba1b207af066be4d
-  - enabled: 0
-    path: Assets/NewScene.unity
-    guid: a341347ecfade124f817cac8ea56a209
   - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 78cbd304e04ad4e0eb1a8eaf6c7772d3
   - enabled: 1
     path: Assets/Scenes/End Of Game.unity
     guid: c65f04d88e8847d4dbf6e44296752a8d
-  - enabled: 0
-    path: Assets/Whoopsie.unity
-    guid: 1fec2fd489e934cd191750af99f08067
   - enabled: 1
     path: Assets/Scenes/Testing/Testing Grounds.unity
     guid: a32637a2bfa8645b3aa91a781fc6ddc7
-  - enabled: 0
-    path: Assets/Scenes/Whoopsie.unity
-    guid: 26eb9b65eefc2437f90fab56a6b3ed57
   - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 78cbd304e04ad4e0eb1a8eaf6c7772d3
@@ -59,10 +50,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 78cbd304e04ad4e0eb1a8eaf6c7772d3
-  - enabled: 0
-    path: Assets/Scenes/2.unity
-    guid: 269e7892b61bf47318d60b79ef3d3257
-  - enabled: 1
-    path: Assets/Scenes/Testing/CamTest.unity
-    guid: f0a2630ba769e4af4958994f8c8a7d6a
   m_configObjects: {}

@@ -41,11 +41,13 @@ namespace Gamekit2D
 
             if (triggerType == TriggerType.Once && m_AlreadyTriggered)
                 return;
-
-            director.Play();
-            m_AlreadyTriggered = true;
-            OnDirectorPlay.Invoke();
-            Invoke("FinishInvoke", (float)director.duration);
+            if (director != null)
+            {
+                director.Play();
+                m_AlreadyTriggered = true;
+                OnDirectorPlay.Invoke();
+                Invoke("FinishInvoke", (float)director.duration);
+            }
         }
 
         void FinishInvoke()
