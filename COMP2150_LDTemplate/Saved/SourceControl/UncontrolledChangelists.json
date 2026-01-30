@@ -1,0 +1,25 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/COMP2150/GM_Parkour.uasset",
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/FirstPerson/Lvl_FirstPerson.umap",
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/COMP2150/BP_CptParkour.uasset",
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/COMP2150/Data/InputMapping.uasset",
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/COMP2150/Test.uasset",
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/Input/IMC_Default.uasset",
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/COMP2150/Data/IA_JumpTest.uasset",
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/COMP2150/Data/IA_BlinkTest.uasset",
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/COMP2150/Data/IA_Blink.uasset",
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/UZ/4L1O8LCQMUH1Y9D2O75C34.uasset",
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/HW/YSUIWKH50YIHLVI401860B.uasset",
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/2Q/TDCH4E13CT0JPI6JTYQTNN.uasset",
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/3A/RC3XH2JM9VQFKXV4BGJ9EF.uasset"
+			]
+		}
+	]
+}
