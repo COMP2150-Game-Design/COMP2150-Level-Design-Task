@@ -5,11 +5,7 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/COMP2150/GM_Parkour.uasset",
 				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/FirstPerson/Lvl_FirstPerson.umap",
-				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/COMP2150/BP_CptParkour.uasset",
-				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/COMP2150/Data/InputMapping.uasset",
-				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/COMP2150/Test.uasset",
 				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
 				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/Input/IMC_Default.uasset",
 				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/COMP2150/Data/IA_JumpTest.uasset",
@@ -18,7 +14,20 @@
 				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/UZ/4L1O8LCQMUH1Y9D2O75C34.uasset",
 				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/HW/YSUIWKH50YIHLVI401860B.uasset",
 				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/2Q/TDCH4E13CT0JPI6JTYQTNN.uasset",
-				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/3A/RC3XH2JM9VQFKXV4BGJ9EF.uasset"
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/3A/RC3XH2JM9VQFKXV4BGJ9EF.uasset",
+				"/Users/cameronedmond/Documents/GitHub/COMP2150-Level-Design-Task/COMP2150_LDTemplate/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"/Users/cameronedmond/Documents/GitHub/COMP2150-Level-Design-Task/COMP2150_LDTemplate/Content/COMP2150/BlinkIndicator.uasset",
+				"/Users/cameronedmond/Documents/GitHub/COMP2150-Level-Design-Task/COMP2150_LDTemplate/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/SK/RP8VFGRGUKGOLEKCMTL144.uasset",
+				"/Users/cameronedmond/Documents/GitHub/COMP2150-Level-Design-Task/COMP2150_LDTemplate/Content/Input/IMC_Default.uasset",
+				"/Users/cameronedmond/Documents/GitHub/COMP2150-Level-Design-Task/COMP2150_LDTemplate/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/A4/8ARG7UFYJBODU95ES3OV27.uasset",
+				"/Users/cameronedmond/Documents/GitHub/COMP2150-Level-Design-Task/COMP2150_LDTemplate/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/EG/CIZR6W2NYH4Y5P8G67XOU0.uasset",
+				"/Users/cameronedmond/Documents/GitHub/COMP2150-Level-Design-Task/COMP2150_LDTemplate/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/T3/9DL9JF3RPM6GRPCH3WLL32.uasset",
+				"/Users/Shared/Epic Games/UE_5.7/Engine/Content/BasicShapes/Cube.uasset",
+				"/Users/cameronedmond/Documents/GitHub/COMP2150-Level-Design-Task/COMP2150_LDTemplate/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/8Z/TMXG7C1GTP4ZV3CVRM1KEJ.uasset",
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/COMP2150/GM_Parkour.uasset",
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/COMP2150/BP_CptParkour.uasset",
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/COMP2150/Data/InputMapping.uasset",
+				"/Users/cameronedmond/Documents/Unreal Projects/COMP2150_LDTemplate/Content/COMP2150/Test.uasset"
 			]
 		}
 	]
