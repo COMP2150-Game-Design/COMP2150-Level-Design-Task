@@ -8,8 +8,8 @@ Your document must include images. For a guide on markdown formatting, refer bac
 ## 1. Process (~800 words)
 Reflect on how iterative design helped to improve your level. At least two prototypes must be included (detailed below). Ensure these prototypes are included inside the repo, and properly embedded into this document. Additional prototypes are necesssary to receive D-HD marks, as per the rubric.
 
-## 1.1 Encounter Design and Storyboarding
-Pick one encounter from your level that best exemplifies your iterative design journey. Include the storyboards of this encounter. What design decisions were you able to make through the creation of the storyboard? Did you iterate on it in this format, or move straight to building this in engine? What changed once the encounter was "live" in engine and being played? How did storyboarding contribute to your understanding of iterative design, and how did it improve your process?
+## 1.1 Encounter Design Prototype
+Pick one encounter from your level that best exemplifies your iterative design journey. Include a prototype of this encounter, based on one of the formats mentioned in the lectures. Why did you pick this format? What design decisions were you able to make through the creation of the prototype? Did you iterate on it in this format, or move straight to building this in engine? What changed once the encounter was "live" in engine and being played? How did prototyping this encounter contribute to your understanding of iterative design, and how did it improve your process?
 
 ## 1.2 Macro Level Design and Molecule Diagrams
 Include a molecule diagram of your entire level. What design decisions were you able to make through the creation of a molecule diagram? Where in your design process did you create this prototype (at the beginning, part way through development, or towards the end)? What did the molecule diagram reveal about your level, and how did you (or would you) improve your level with respect to this information? How did creating a molecule diagram contribute to your understanding of iterative deisgn, and how did it improve your process?
