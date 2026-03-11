@@ -1,6 +1,7 @@
 # COMP2150  - Level Design Document
 ## Name: [your name]
 ## Student number: [your student number] 
+## Do you consent for your level to be included in the version of Cryoshock published on MQ Games' itch.io page, and played at MQ-related events? [Yes / No]
 In this document, discuss and reflect on the design of your level. It should be ~1500 words in length. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. You can check word count by copying this text into a Word or Google doc.
 
 Your document must include images. For a guide on markdown formatting, refer back to the Week 1 Practical Sheet.
